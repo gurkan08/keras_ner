@@ -1,6 +1,7 @@
 # keras bi-directional lstm + crf ner service
 
 docker build -t keras_ner .
+
 docker run -it -p 8000:8000 keras_ner
 
 # example request
